@@ -1,12 +1,15 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import "./index.css";
+
+// Renderiza un botón
 class Square extends React.Component {
   render() {
     return <button className="square">{/* TODO */}</button>;
   }
 }
 
+// Renderiza 9 cuadrados
 class Board extends React.Component {
   renderSquare(i) {
     return <Square />;
@@ -38,6 +41,7 @@ class Board extends React.Component {
   }
 }
 
+// Renderiza un table con valres de posición por defecto
 class Game extends React.Component {
   render() {
     return (
