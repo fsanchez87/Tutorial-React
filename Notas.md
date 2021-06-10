@@ -8,5 +8,8 @@
 
 - En React, sin embargo, es una convención usar los nombres on[Evento] para props que representan eventos y handle[Evento] para los métodos que manejan los eventos.
 
+- En handleClick, llamamos .slice() para crear una copia del array de squares para modificarlo en vez de modificar el array existente.
 
-
+    `var player = {score: 1, name: 'Jeff'};`
+    
+    `var newPlayer = {...player, score: 2};`
