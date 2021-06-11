@@ -13,3 +13,5 @@
     `var player = {score: 1, name: 'Jeff'};`
     
     `var newPlayer = {...player, score: 2};`
+
+- Los **componentes de función** son una forma mas simle de escribir componentes que **solo contienen un método render y no tienen estado propio**
